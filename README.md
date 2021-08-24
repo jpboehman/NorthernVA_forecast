@@ -14,6 +14,13 @@ This is a React-based application built for fetching forecasts of cities located
 
 6) Thank you for your time!
 
+Example 1:
+![image](https://user-images.githubusercontent.com/69166665/130624786-5a6ea91e-8e1d-409b-81d2-01b18b3cefc3.png)
+
+Example 2:
+ ![image](https://user-images.githubusercontent.com/69166665/130624916-9ad28508-c6e0-4b2a-8859-7ad1aeb8f8e9.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
