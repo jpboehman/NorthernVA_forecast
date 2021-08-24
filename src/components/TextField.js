@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { StoreContext } from './store';
-import './styles/TextField.css';
+import '.././styles/TextField.css';
+import { forecastRequest } from '../api/requests';
+import { StoreContext } from '../store';
 import { Button } from '@material-ui/core';
-import { forecastRequest } from './api/requests';
 import lodashGet from 'lodash.get';
 
 export const TextField = () => {
@@ -52,7 +52,7 @@ export const TextField = () => {
 				onClick={fetchLocationForecast}
 				disabled={!location}
 			>
-				Search by Location
+				Search by location
 			</Button>{' '}
 		</div>
 	);

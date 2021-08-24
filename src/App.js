@@ -1,13 +1,13 @@
 import React from 'react';
 import { useReducer } from 'react';
+import './styles/App.css';
 import { StoreContext } from './store';
 import { reducer, initialState } from './store/reducer';
-import EditableSection from './EditableSection';
-import WeatherCard from './WeatherCard';
-import './styles/App.css';
+import EditableSection from './components/EditableSection';
+import WeatherCard from './components/WeatherCard';
 import lodashGet from 'lodash.get';
 
-const App = () => {
+export const App = () => {
 	// Global state and dispatch function to serve as our State Management
 	const [globalState, dispatch] = useReducer(reducer, initialState);
 	const forecasts = lodashGet(globalState, 'forecasts');

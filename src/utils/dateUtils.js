@@ -1,7 +1,6 @@
-// Function to get the dates between a beginning and end date
 export const getDaysArray = (start, end) => {
 	const arr = [];
-	// Loop to get the days between the two entered dates
+	// Get the days between the two submitted dates
 	for (let dt = start; dt <= end; dt.setDate(dt.getDate() + 1)) {
 		arr.push(new Date(dt));
 	}

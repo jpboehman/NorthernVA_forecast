@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/WeatherCard.css';
+import '.././styles/WeatherCard.css';
 
 const WeatherCard = ({ date, location, weather }) => {
 	if (date) {

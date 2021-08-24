@@ -1,6 +1,6 @@
 import React from 'react';
 import DateTimePicker from 'react-datetime-picker';
-import './styles/DatePicker.css';
+import '.././styles/DatePicker.css';
 
 export const DatePicker = ({ title, onChange, value }) => {
 	return (

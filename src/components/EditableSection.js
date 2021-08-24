@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import './styles/EditableSection.css';
+import '.././styles/EditableSection.css';
 import DatePicker from './DatePicker.js';
 import TextField from './TextField.js';
-import { StoreContext } from './store';
+import { StoreContext } from '../store';
 import lodashGet from 'lodash.get';
-import { forecastRequest } from './api/requests';
+import { forecastRequest } from '../api/requests';
 import { Button } from '@material-ui/core';
 
 export const EditableSection = () => {
