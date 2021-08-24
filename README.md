@@ -6,7 +6,7 @@ This is a React-based application built for fetching forecasts of cities located
 
 2) Run `npm start` to start the application and view it in the browser. The application will be started on port 3000 type in `localhost:3000` in your browser to check it out!
 
-3) This application mocks interacting with a database by using the npm module `json-server`. This is where all of our test data is stored, and mimics the behavior of fetching and utilizing data from a real remote API. The searching functionality of this application depends on this server. To realize the full functionality of the app, open another terminal and run the command `npm run server` (before searching for any forecasts!). The server will start on port 5000 and serve the assets back to the front-end.
+3) This application mocks interacting with a backend by using the npm module `json-server`. This is where all of the test data is stored, and mimics the behavior of fetching and utilizing data from a real remote API. The searching functionality of this application depends on this server. To realize the full functionality of the app, open another terminal and run the command `npm run server` (before searching for any forecasts). The server will start on port 5000 and serve the assets back to the front-end.
 
 4) Search for a forecast by either typing in a date-range, or by typing in a city within the northern Virginia area. The results will populate in a horizonal format below the `Search by Date / Time` button.
 
